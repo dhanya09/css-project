@@ -213,3 +213,20 @@ body {
   border-radius: 100px;
   font-size: 16px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .page {
+    display: flex;
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    grid-template-areas:
+      "order payment"
+      "total total";
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+  }
