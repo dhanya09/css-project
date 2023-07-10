@@ -8,7 +8,7 @@ img {
   width: 30px;
   position: relative;
   top: 45px;
-  left: 310px;
+  /* left: 310px; */
 }
 
 .topnav {
@@ -17,12 +17,9 @@ img {
 }
 
 .topnav a {
-  float: middle;
-  color: rgb(53, 28, 28);
-  text-align: center;
-  padding: 15px 218px;
-  text-decoration: none;
-  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topnav a.active {
@@ -64,6 +61,13 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: normal;
+}
+
+
+.logo {
+  height: 25px;
+  position: relative;
+  top: 3px;
 }
 
 .logo {
@@ -157,7 +161,7 @@ body {
 }
 
 .user-input {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(67, 22, 22, 0);
   border: 2px #885a2d solid;
   padding: 8px;
   border-radius: 100px;
